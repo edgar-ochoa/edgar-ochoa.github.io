@@ -7,6 +7,7 @@
     --teal: #0FA4AF;
     --light-teal: #AFDDE5;
     --lightest-teal: #eff8fa;
+
 }
 
 /* font classes */
@@ -15,13 +16,14 @@
     font-weight: 400;
     font-style: normal;
     color: var(--dark-green);
-  }
+}
   
 
 
 /* element styling */
 body {
     margin: 0px;
+    height:auto;
     background-color: var(--lightest-teal);
 
 }
@@ -29,13 +31,13 @@ body {
 main {
     margin-left: 20px;
     margin-right: 20px;
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 400px;
 }
-
 
 /* class styling */
 
@@ -63,9 +65,56 @@ main {
     float: right;
 }
 
+.footer ul {
+    list-style-type: none;
+    background-color: var(--light-teal);
+    margin: 0px;
+    padding: 3rem;
+    overflow: hidden;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer li {
+    color: var(--teal);
+    text-decoration: none;
+    padding: 1em;
+}
+
+.footer a {
+    color: var(--teal);
+    text-decoration: none;
+}
+
+.contactInfo img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactLogo {
+    width: 20%;
+    min-width: 150px;
+    height: auto;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* id styling */
+
+#emailIcon {
+    min-width: 80px;
+    max-width: 110px;
+    height: auto;
+}
 
 #profilePic {
 
@@ -73,8 +122,8 @@ main {
     border-radius: 50%;
     width: auto;
     height: auto;
-    min-height: 200px;
-    max-height: 300px;
+    min-height: 150px;
+    max-height: 200px;
     border-style: solid;
     border-color: var(--teal);
 }
@@ -99,13 +148,12 @@ main {
 
 /* media queries */
 
-
-
-
-
-
-
 @media (min-width: 1200px) {
+
+    .main-info {
+        flex-direction: row;
+    }
+
     #intro-p {
         font-size: 1.25rem;
     }
@@ -137,5 +185,5 @@ main {
     }
 }
 
-}
+
 
