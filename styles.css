@@ -74,6 +74,7 @@ main {
     display:flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .footer li {
@@ -85,6 +86,11 @@ main {
 .footer a {
     color: var(--teal);
     text-decoration: none;
+}
+
+.footer img {
+    max-width: 40px;
+    height: auto;
 }
 
 .contactInfo img {
