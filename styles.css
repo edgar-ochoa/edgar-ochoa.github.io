@@ -8,14 +8,6 @@
     --light-teal: #AFDDE5;
     --lightest-teal: #eff8fa;
 }
-
-/* font classes */
-.varela-round-regular {
-    font-family: "Varela Round", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--dark-green);
-}
   
 
 
@@ -90,6 +82,15 @@ main {
 .footer img {
     max-width: 40px;
     height: auto;
+}
+
+/* font classes */
+.varela-round-regular {
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-green);
+    font-size: 1em;
 }
 
 .contactInfo img {
@@ -175,10 +176,6 @@ main {
 
     .main-info {
         flex-direction: row;
-    }
-
-    #intro-p {
-        font-size: 1.25rem;
     }
 
     #name {
