@@ -1,0 +1,56 @@
+:root {
+    --lightColoredTile: #EFDCAB;
+    --darkColoredTile: #443627;
+    --player1Color: black;
+    --player2Color: white;
+}
+
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+.rowDiv {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: auto;
+}
+
+.lightColoredTile {
+    background-color: var(--lightColoredTile);
+}
+
+.darkColoredTile {
+    background-color: var(--darkColoredTile);
+}
+
+.piece {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.player1 {
+    background-color: var(--player1Color);
+}
+
+.player2 {
+    background-color: var(--player2Color);
+}
+
+.selected {
+    border: 5px solid greenyellow;
+}
+
+.turnLabel {
+    padding:40px;
+    font-size:3em ;
+    background-color: ;
+    
+}
