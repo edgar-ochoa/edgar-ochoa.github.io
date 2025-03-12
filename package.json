@@ -1,0 +1,22 @@
+{
+  "name": "edgar-ochoa.github.io",
+  "version": "1.0.0",
+  "description": "distributed game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgar-ochoa/edgar-ochoa.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgar-ochoa/edgar-ochoa.github.io/issues"
+  },
+  "homepage": "https://github.com/edgar-ochoa/edgar-ochoa.github.io#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
